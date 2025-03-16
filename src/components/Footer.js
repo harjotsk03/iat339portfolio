@@ -30,32 +30,6 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
           <div>
             <h3 className="text-engineer-text-primary/50 poppins-medium uppercase text-sm tracking-wider mb-4">
-              Contact Me
-            </h3>
-            <div className="mt-2">
-              <form onSubmit={(e) => e.preventDefault()}>
-                <div className="flex flex-col justify-start xl:flex-row gap-3 h-10">
-                  <input
-                    type="text"
-                    placeholder="Your message"
-                    className="bg-engineer-bgPrimary poppins-medium text-sm w-full text-engineer-bg py-3 px-5 rounded-full focus:outline-none border-2 border-transparent hover:border-engineer-accentOrange focus:ring-1 focus:ring-engineer-accentOrange transition-all duration-700 ease-in-out"
-                  />
-                  <button
-                    type="submit"
-                    className="bg-engineer-bg text-xs text-white group py-3 px-5 whitespace-nowrap rounded-full hover:bg-engineer-text-primary hover:text-engineer-bg transition-all poppins-medium duration-700 ease-in-out"
-                  >
-                    Send Message{" "}
-                    <FiArrowUpRight
-                      className="inline-block group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-700"
-                      size={16}
-                    />
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div>
-            <h3 className="text-engineer-text-primary/50 poppins-medium uppercase text-sm tracking-wider mb-4">
               Get Connected
             </h3>
             <ul className="space-y-2 lg:space-y-4">

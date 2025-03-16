@@ -1,9 +1,8 @@
 import ProjectCard from "./ProjectCard";
-import cognerisLogo from "../../assets/cognerisLogo.png";
-import studySpotrLogo from "../../assets/studyspotrLogo.png";
-import sfurs from "../../assets/sfursLogo.png";
-import ecoGrowLogo from "../../assets/ecogrowlogo.png";
-import binThereDumpedThatLogo from "../../assets/bintheredumpedthat.jpg";
+import studySpotrLogo from "../../assets/studySpotr.png";
+import sfurs from "../../assets/sfurs.png";
+import ecoGrowLogo from "../../assets/ecoGrow.png";
+import binThereDumpedThatLogo from "../../assets/binThere.png";
 
 export default function Projects() {
   const projects = [
@@ -37,7 +36,7 @@ export default function Projects() {
           my <span className="text-engineer-accentGreen">work</span>
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
