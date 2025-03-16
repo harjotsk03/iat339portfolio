@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="bg-engineer-bg flex flex-col items-center justify-center h-[93vh]">
+    <div className="bg-engineer-bg flex flex-col items-center justify-center h-[88vh] lg:h-[93vh]">
       <div className="flex flex-col text-center lg:text-left lg:flex-row justify-between w-10/12 lg:w-2/3 mb-2">
         <p className="text-engineer-text-muted poppins-regular w-full lg:w-auto text-center lg:text-left text-sm lg:text-base leading-snug lowercase">
           harjot singh.
@@ -9,7 +9,7 @@ function Hero() {
           computer science + interactive technology student @ sfu.
         </p>
       </div>
-      <h1 className="text-engineer-text-secondary poppins-semibold text-3xl lg:text-6xl leading-tight lg:leading-snug w-11/12 lg:w-2/3 cursor-crosshair text-center lg:text-left">
+      <h1 className="text-engineer-text-secondary poppins-semibold text-4xl lg:text-6xl leading-tight lg:leading-snug w-11/12 lg:w-2/3 cursor-crosshair text-center lg:text-left">
         <span className="hover:text-engineer-text-primary transition-colors duration-300">
           aspiring
         </span>{" "}

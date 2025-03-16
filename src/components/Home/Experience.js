@@ -10,13 +10,13 @@ function Experience() {
   const [activeTooltip, setActiveTooltip] = useState(null);
 
   return (
-    <div className="w-2/3 h-max px-8 py-10 lg:px-28 lg:py-16 bg-engineer-bgSecondary rounded-3xl ml-auto mr-auto mb-0 lg:mb-20">
-      <div className="flex flex-col lg:flex-row items-center justify-between w-full gap-10 lg:gap-0">
+    <div className="lg:w-2/3 w-10/12 h-max px-2 py-7 lg:px-28 lg:py-16 bg-engineer-bgSecondary rounded-3xl ml-auto mr-auto mb-0 lg:mb-20">
+      <div className="flex flex-wrap lg:flex-row items-center justify-center lg:justify-between w-full gap-10 lg:gap-0">
         <div className="text-center">
-          <p className="text-engineer-text-primary poppins-semibold text-5xl lg:text-6xl font-bold text-left">
+          <p className="text-engineer-text-primary poppins-semibold text-4xl lg:text-6xl font-bold text-left">
             +2
           </p>
-          <p className="text-engineer-accentGreen poppins-regular text-sm lg:text-base leading-snug lowercase text-left">
+          <p className="text-engineer-accentGreen poppins-regular text-xs lg:text-base leading-snug lowercase text-left">
             Startups
             <br />
             Founded
@@ -27,7 +27,7 @@ function Experience() {
                 <img
                   src={studySpotrLogo}
                   alt="Study Spotr Logo"
-                  className="w-10 h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
+                  className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
                   onMouseEnter={() => setActiveTooltip("studySpotr")}
                   onMouseLeave={() => setActiveTooltip(null)}
                 />
@@ -41,7 +41,7 @@ function Experience() {
                 <img
                   src={cognerisLogo}
                   alt="Cogneris Logo"
-                  className="w-10 h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
+                  className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
                   onMouseEnter={() => setActiveTooltip("cogneris")}
                   onMouseLeave={() => setActiveTooltip(null)}
                 />
@@ -56,10 +56,10 @@ function Experience() {
         </div>
 
         <div className="text-center">
-          <p className="text-engineer-text-primary poppins-semibold text-5xl lg:text-6xl font-bold text-left">
+          <p className="text-engineer-text-primary poppins-semibold text-4xl lg:text-6xl font-bold text-left">
             +3
           </p>
-          <p className="text-engineer-accentOrange poppins-regular text-sm lg:text-base leading-snug lowercase text-left">
+          <p className="text-engineer-accentOrange poppins-regular text-xs lg:text-base leading-snug lowercase text-left">
             leadership
             <br />
             roles
@@ -70,7 +70,7 @@ function Experience() {
                 <img
                   src={sfucsss}
                   alt="SFUCSSS Logo"
-                  className="w-10 h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
+                  className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
                   onMouseEnter={() => setActiveTooltip("sfucsss")}
                   onMouseLeave={() => setActiveTooltip(null)}
                 />
@@ -85,7 +85,7 @@ function Experience() {
                 <img
                   src={sfurs}
                   alt="SFURS Logo"
-                  className="w-10 h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
+                  className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
                   onMouseEnter={() => setActiveTooltip("sfurs")}
                   onMouseLeave={() => setActiveTooltip(null)}
                 />
@@ -100,7 +100,7 @@ function Experience() {
                 <img
                   src={studySpotrLogo}
                   alt="Study Spotr Logo"
-                  className="w-10 h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
+                  className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
                   onMouseEnter={() => setActiveTooltip("studySpotrLead")}
                   onMouseLeave={() => setActiveTooltip(null)}
                 />
@@ -116,10 +116,10 @@ function Experience() {
         </div>
 
         <div className="text-center">
-          <p className="text-engineer-text-primary poppins-semibold text-5xl lg:text-6xl font-bold text-left">
+          <p className="text-engineer-text-primary poppins-semibold text-4xl lg:text-6xl font-bold text-left">
             +1
           </p>
-          <p className="text-engineer-accentGreen poppins-regular text-sm lg:text-base leading-snug lowercase text-left">
+          <p className="text-engineer-accentGreen poppins-regular text-xs lg:text-base leading-snug lowercase text-left">
             hackathon
             <br />
             victories
@@ -130,7 +130,7 @@ function Experience() {
                 <img
                   src={stormhacksLogo}
                   alt="StormHacks Logo"
-                  className="w-10 h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
+                  className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
                   onMouseEnter={() => setActiveTooltip("stormhacks")}
                   onMouseLeave={() => setActiveTooltip(null)}
                 />
