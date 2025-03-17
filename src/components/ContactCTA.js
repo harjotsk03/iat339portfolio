@@ -21,7 +21,7 @@ export default function ContactCTA() {
       viewport={{ once: true, amount: 0.2 }}
       variants={fadeInVariants}
     >
-      <div className="w-10/12 lg:w-2/3 mx-auto mb-20 bg-engineer-bgSecondary rounded-3xl p-8 lg:p-12 text-center">
+      <div className="w-10/12 lg:w-2/3 mx-auto mb-20 bg-engineer-bgSecondary rounded-3xl22 p-8 lg:p-12 text-center">
         <h2 className="text-engineer-text-primary poppins-semibold text-2xl lg:text-4xl mb-4">
           let's <span className="text-engineer-accentGreen">connect</span>
         </h2>

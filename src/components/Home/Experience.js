@@ -40,14 +40,14 @@ function Experience() {
               <div className="relative">
                 <img
                   src={cognerisLogo}
-                  alt="Cogneris Logo"
+                  alt="Celthar Logo"
                   className="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2 border-engineer-text-muted cursor-default"
                   onMouseEnter={() => setActiveTooltip("cogneris")}
                   onMouseLeave={() => setActiveTooltip(null)}
                 />
                 {activeTooltip === "cogneris" && (
                   <div className="absolute transition-all duration-700 ease-in-out top-full mt-2 left-1/2 transform poppins-regular -translate-x-1/2 mb-2 px-3 py-1 bg-engineer-bgSecondary text-engineer-text-primary text-xs rounded-full whitespace-nowrap z-10 border-2 border-engineer-text-muted">
-                    Cogneris Studio
+                    Celthar
                   </div>
                 )}
               </div>

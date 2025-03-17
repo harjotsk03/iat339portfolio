@@ -31,7 +31,7 @@ export default function Nav() {
   // Navigation links
   const navLinks = [
     { name: "about", href: "/about" },
-    { name: "projects", href: "#projects" },
+    { name: "projects", href: "/projects" },
     // { name: "Contact", href: "#contact" },
     { name: "download cv", href: "/Harjot Singh CV.pdf" },
   ];
